@@ -1,0 +1,22 @@
+"""
+classes an object --> Blueprint(class)->instances(object)
+"""
+"""class Dog:
+    def __init__(self,name,breed):
+        self.name=name
+        self.breed=breed
+
+rex=Dog("Rex","Labrador")
+kallu=Dog("Kallu","Desi")
+
+kallu.name="Dogesh"
+print(rex.name,rex.breed)
+print(kallu.name,kallu.breed)"""
+
+"""create a class student name roll no email"""
+class Student:
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+s=Student("nishant",202310101150022)
+print(s.name,s.rollno)
